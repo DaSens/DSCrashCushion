@@ -1,0 +1,6 @@
+framework module DSCrashCushion {
+  umbrella header "DSCrashCushion-umbrella.h"
+
+  export *
+  module * { export * }
+}

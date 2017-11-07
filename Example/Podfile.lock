@@ -1,0 +1,16 @@
+PODS:
+  - DSCrashCushion (0.1.0)
+
+DEPENDENCIES:
+  - DSCrashCushion (from `../`)
+
+EXTERNAL SOURCES:
+  DSCrashCushion:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DSCrashCushion: 72e06a3d38133d227246a7a268af25364d9bf9a7
+
+PODFILE CHECKSUM: 95f3eb7691e4cd15b44b28bbe831906d091a206a
+
+COCOAPODS: 1.2.1

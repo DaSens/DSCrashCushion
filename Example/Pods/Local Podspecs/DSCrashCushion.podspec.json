@@ -1,0 +1,22 @@
+{
+  "name": "DSCrashCushion",
+  "version": "0.1.0",
+  "summary": "A short description of DSCrashCushion.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangdasen@foxmail.com/DSCrashCushion",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangdasen@foxmail.com": "zhangdasen@alibaba-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangdasen@foxmail.com/DSCrashCushion.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DSCrashCushion/Classes/**/*"
+}

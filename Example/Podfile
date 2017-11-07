@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'DSCrashCushion_Example' do
+  pod 'DSCrashCushion', :path => '../'
+
+end
