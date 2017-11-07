@@ -15,6 +15,12 @@
 		7558228E365C23A61024960669604EDA /* DSCrashCushion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07606300B0C00CA66111F6494503EC9B /* DSCrashCushion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A93CB0C7E0053798EA50F04ADA0E95C /* Pods-DSCrashCushion_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E354CEF036F63A563F31DE6F2D54FF /* Pods-DSCrashCushion_Example-dummy.m */; };
 		97994571ACD021062C46AF4AC310D9E8 /* NSDictionary+GuardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FFE170106EE14407D5D222879A6722 /* NSDictionary+GuardClass.m */; };
+		999D622E1FB1BD6800926249 /* NSCache+GuardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 999D622C1FB1BD6800926249 /* NSCache+GuardClass.h */; };
+		999D622F1FB1BD6800926249 /* NSCache+GuardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 999D622D1FB1BD6800926249 /* NSCache+GuardClass.m */; };
+		999D62321FB1BD8000926249 /* NSMutableAttributedString+GuardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 999D62301FB1BD8000926249 /* NSMutableAttributedString+GuardClass.h */; };
+		999D62331FB1BD8000926249 /* NSMutableAttributedString+GuardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 999D62311FB1BD8000926249 /* NSMutableAttributedString+GuardClass.m */; };
+		999D62361FB1BD9700926249 /* NSMutableString+GuardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 999D62341FB1BD9700926249 /* NSMutableString+GuardClass.h */; };
+		999D62371FB1BD9700926249 /* NSMutableString+GuardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 999D62351FB1BD9700926249 /* NSMutableString+GuardClass.m */; };
 		B26F4688D76A61F74D1D4944C8337599 /* NSMutableArray+GuardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = A8663EDA2A6DA5C5D854A62DB7E99A9A /* NSMutableArray+GuardClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB1037A36BAF32ED821C2B704BA95480 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		BECFA6C77F5D33B54011C3CC48A5844F /* NSArray+GuardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C54ED9182ECE1DBD1C9F4F57227808 /* NSArray+GuardClass.m */; };
@@ -56,6 +62,12 @@
 		8B1B8800D2C603B62829F031D1022932 /* Pods-DSCrashCushion_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSCrashCushion_Example.release.xcconfig"; sourceTree = "<group>"; };
 		92A4A62D165099C9BAE6AD486AA3BDCF /* Pods_DSCrashCushion_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSCrashCushion_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		999D622C1FB1BD6800926249 /* NSCache+GuardClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSCache+GuardClass.h"; sourceTree = "<group>"; };
+		999D622D1FB1BD6800926249 /* NSCache+GuardClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSCache+GuardClass.m"; sourceTree = "<group>"; };
+		999D62301FB1BD8000926249 /* NSMutableAttributedString+GuardClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+GuardClass.h"; sourceTree = "<group>"; };
+		999D62311FB1BD8000926249 /* NSMutableAttributedString+GuardClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+GuardClass.m"; sourceTree = "<group>"; };
+		999D62341FB1BD9700926249 /* NSMutableString+GuardClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+GuardClass.h"; sourceTree = "<group>"; };
+		999D62351FB1BD9700926249 /* NSMutableString+GuardClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+GuardClass.m"; sourceTree = "<group>"; };
 		A3BF2F2CF64CAD2D760640F97437150F /* DSCrashCushion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSCrashCushion-prefix.pch"; sourceTree = "<group>"; };
 		A3C54ED9182ECE1DBD1C9F4F57227808 /* NSArray+GuardClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GuardClass.m"; sourceTree = "<group>"; };
 		A7FB3629B3A395C4A9D34D9EC3F21C3A /* DSSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DSSwizzle.h; sourceTree = "<group>"; };
@@ -127,12 +139,18 @@
 			children = (
 				03C40C02CE2897A54E633AFF83A5EE97 /* NSArray+GuardClass.h */,
 				A3C54ED9182ECE1DBD1C9F4F57227808 /* NSArray+GuardClass.m */,
+				999D622C1FB1BD6800926249 /* NSCache+GuardClass.h */,
+				999D622D1FB1BD6800926249 /* NSCache+GuardClass.m */,
 				2E1E301BA5AA92C1F1330344BB00164D /* NSDictionary+GuardClass.h */,
 				F8FFE170106EE14407D5D222879A6722 /* NSDictionary+GuardClass.m */,
 				A8663EDA2A6DA5C5D854A62DB7E99A9A /* NSMutableArray+GuardClass.h */,
 				C63B594349187993D0A2A96E66A674F0 /* NSMutableArray+GuardClass.m */,
+				999D62341FB1BD9700926249 /* NSMutableString+GuardClass.h */,
+				999D62351FB1BD9700926249 /* NSMutableString+GuardClass.m */,
 				19C24247E74CBC1AE2A11D5BC127E0E0 /* NSMutableDictionary+GuardClass.h */,
 				28DCC47002F32DD58E3081F605149982 /* NSMutableDictionary+GuardClass.m */,
+				999D62301FB1BD8000926249 /* NSMutableAttributedString+GuardClass.h */,
+				999D62311FB1BD8000926249 /* NSMutableAttributedString+GuardClass.m */,
 			);
 			path = Container;
 			sourceTree = "<group>";
@@ -239,6 +257,9 @@
 				7558228E365C23A61024960669604EDA /* DSCrashCushion-umbrella.h in Headers */,
 				50F6BA00C1469E4C6987CB5F026F5A19 /* DSCrashGuardManager.h in Headers */,
 				D8036DEEB751590C45E06A5961502906 /* DSSwizzle.h in Headers */,
+				999D62321FB1BD8000926249 /* NSMutableAttributedString+GuardClass.h in Headers */,
+				999D62361FB1BD9700926249 /* NSMutableString+GuardClass.h in Headers */,
+				999D622E1FB1BD6800926249 /* NSCache+GuardClass.h in Headers */,
 				D7E71A889AA35BFB7168CEBF66C1E534 /* NSArray+GuardClass.h in Headers */,
 				3F62E8A417B48104293F513E7488FE69 /* NSDictionary+GuardClass.h in Headers */,
 				B26F4688D76A61F74D1D4944C8337599 /* NSMutableArray+GuardClass.h in Headers */,
@@ -324,13 +345,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				999D622F1FB1BD6800926249 /* NSCache+GuardClass.m in Sources */,
 				F969D5D5C3B2A7B80105FD3C1C34DC63 /* DSCrashCushion-dummy.m in Sources */,
 				55D1E915CB512816187BB66C426A99CE /* DSCrashGuardManager.m in Sources */,
 				FE6621347F71DBAE8E4461F0CE251993 /* DSSwizzle.m in Sources */,
+				999D62331FB1BD8000926249 /* NSMutableAttributedString+GuardClass.m in Sources */,
 				BECFA6C77F5D33B54011C3CC48A5844F /* NSArray+GuardClass.m in Sources */,
 				97994571ACD021062C46AF4AC310D9E8 /* NSDictionary+GuardClass.m in Sources */,
 				F1022058A1B73191334D80049CA1572E /* NSMutableArray+GuardClass.m in Sources */,
 				452A25C2E047DC99D3910000111A6E24 /* NSMutableDictionary+GuardClass.m in Sources */,
+				999D62371FB1BD9700926249 /* NSMutableString+GuardClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
