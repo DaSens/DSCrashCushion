@@ -12,7 +12,10 @@
 
 #import "DSCrashGuardManager.h"
 #import "DSSwizzle.h"
+#import "NSArray+GuardClass.h"
+#import "NSDictionary+GuardClass.h"
 #import "NSMutableArray+GuardClass.h"
+#import "NSMutableDictionary+GuardClass.h"
 
 FOUNDATION_EXPORT double DSCrashCushionVersionNumber;
 FOUNDATION_EXPORT const unsigned char DSCrashCushionVersionString[];

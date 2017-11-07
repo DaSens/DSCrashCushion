@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04BE83007894B1C7B63816AE5AD8DC22 /* DSCrashGuardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B17F8324DE2005F3F7A1C79CD8B7CF24 /* DSCrashGuardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D0AFEFF93C571CAD01912870B1323A /* DSCrashCushion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07606300B0C00CA66111F6494503EC9B /* DSCrashCushion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53622C725D6B2BC63674A0808EE81FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3F62E8A417B48104293F513E7488FE69 /* NSDictionary+GuardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1E301BA5AA92C1F1330344BB00164D /* NSDictionary+GuardClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		452A25C2E047DC99D3910000111A6E24 /* NSMutableDictionary+GuardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DCC47002F32DD58E3081F605149982 /* NSMutableDictionary+GuardClass.m */; };
+		50F6BA00C1469E4C6987CB5F026F5A19 /* DSCrashGuardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA03086B500056F0673E3A7D7E5E573 /* DSCrashGuardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55D1E915CB512816187BB66C426A99CE /* DSCrashGuardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFD1E69565011BE3AB97DBC64ACE471 /* DSCrashGuardManager.m */; };
 		7273881BFA33DFD045111439137EBAD8 /* Pods-DSCrashCushion_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C031E4130E962F85957DECAC655F9AF0 /* Pods-DSCrashCushion_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7558228E365C23A61024960669604EDA /* DSCrashCushion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07606300B0C00CA66111F6494503EC9B /* DSCrashCushion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A93CB0C7E0053798EA50F04ADA0E95C /* Pods-DSCrashCushion_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E354CEF036F63A563F31DE6F2D54FF /* Pods-DSCrashCushion_Example-dummy.m */; };
-		999D62191FB1B98700926249 /* NSArray+GuardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 999D62171FB1B98700926249 /* NSArray+GuardClass.h */; };
-		999D621A1FB1B98700926249 /* NSArray+GuardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 999D62181FB1B98700926249 /* NSArray+GuardClass.m */; };
-		999D621D1FB1B99700926249 /* NSMutableDictionary+GuardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 999D621B1FB1B99700926249 /* NSMutableDictionary+GuardClass.h */; };
-		999D621E1FB1B99700926249 /* NSMutableDictionary+GuardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 999D621C1FB1B99700926249 /* NSMutableDictionary+GuardClass.m */; };
-		999D62211FB1B9A900926249 /* NSDictionary+GuardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 999D621F1FB1B9A900926249 /* NSDictionary+GuardClass.h */; };
-		999D62221FB1B9A900926249 /* NSDictionary+GuardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 999D62201FB1B9A900926249 /* NSDictionary+GuardClass.m */; };
-		B0DEDAB19F02C24CA3D5EFE7913BAFF4 /* DSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA71FE82E567378BDD8F48D9E4BC49 /* DSSwizzle.m */; };
-		B51FF37B84696938F0B14123BD366D4C /* DSCrashGuardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FED4069B04E24AC4CFA2209B19995AD /* DSCrashGuardManager.m */; };
+		97994571ACD021062C46AF4AC310D9E8 /* NSDictionary+GuardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FFE170106EE14407D5D222879A6722 /* NSDictionary+GuardClass.m */; };
+		B26F4688D76A61F74D1D4944C8337599 /* NSMutableArray+GuardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = A8663EDA2A6DA5C5D854A62DB7E99A9A /* NSMutableArray+GuardClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB1037A36BAF32ED821C2B704BA95480 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E495EE13C7544E35DA77905512F05DB3 /* DSSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 13350AEA7E3983FEEEF1D0416C12B002 /* DSSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C08E7966D93C359C157574B26D2198 /* NSMutableArray+GuardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C97AE1D607609B7F35C34E7EDC2891E /* NSMutableArray+GuardClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA3E34145ADDFD9CFE87076EBD484917 /* DSCrashCushion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D7E0DF9119E57E4A193F81FBC8B426 /* DSCrashCushion-dummy.m */; };
-		FACA7680C6CC3C4D2E16D0CFB729C409 /* NSMutableArray+GuardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F91BC51337232EE92B99C7FA5BD51EEB /* NSMutableArray+GuardClass.m */; };
+		BECFA6C77F5D33B54011C3CC48A5844F /* NSArray+GuardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C54ED9182ECE1DBD1C9F4F57227808 /* NSArray+GuardClass.m */; };
+		D7E71A889AA35BFB7168CEBF66C1E534 /* NSArray+GuardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C40C02CE2897A54E633AFF83A5EE97 /* NSArray+GuardClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8036DEEB751590C45E06A5961502906 /* DSSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = A7FB3629B3A395C4A9D34D9EC3F21C3A /* DSSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E01B4D9D234F3435A4F443091DA9C284 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F1022058A1B73191334D80049CA1572E /* NSMutableArray+GuardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C63B594349187993D0A2A96E66A674F0 /* NSMutableArray+GuardClass.m */; };
+		F104303CA84269E92664C08F949BF41D /* NSMutableDictionary+GuardClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C24247E74CBC1AE2A11D5BC127E0E0 /* NSMutableDictionary+GuardClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F969D5D5C3B2A7B80105FD3C1C34DC63 /* DSCrashCushion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D7E0DF9119E57E4A193F81FBC8B426 /* DSCrashCushion-dummy.m */; };
+		FE6621347F71DBAE8E4461F0CE251993 /* DSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = AC929DD1B9CD0C4E820AD248D6B1DA5C /* DSSwizzle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,52 +32,52 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 48505BBFA756077AD19F6DF708703DDB;
+			remoteGlobalIDString = 948DF4592BE90F9A0445638035CC4E47;
 			remoteInfo = DSCrashCushion;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03C40C02CE2897A54E633AFF83A5EE97 /* NSArray+GuardClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+GuardClass.h"; sourceTree = "<group>"; };
 		07606300B0C00CA66111F6494503EC9B /* DSCrashCushion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSCrashCushion-umbrella.h"; sourceTree = "<group>"; };
 		0E6CF9DBA2EA7AB792D37568D5AF16B7 /* Pods-DSCrashCushion_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSCrashCushion_Example-resources.sh"; sourceTree = "<group>"; };
-		13350AEA7E3983FEEEF1D0416C12B002 /* DSSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DSSwizzle.h; sourceTree = "<group>"; };
 		15E354CEF036F63A563F31DE6F2D54FF /* Pods-DSCrashCushion_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSCrashCushion_Example-dummy.m"; sourceTree = "<group>"; };
 		1935710BD0D0D47C49AE52BE646168DE /* Pods-DSCrashCushion_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSCrashCushion_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19C24247E74CBC1AE2A11D5BC127E0E0 /* NSMutableDictionary+GuardClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+GuardClass.h"; sourceTree = "<group>"; };
+		28DCC47002F32DD58E3081F605149982 /* NSMutableDictionary+GuardClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+GuardClass.m"; sourceTree = "<group>"; };
 		298DD09100583F4D60CD83E988EC870F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C97AE1D607609B7F35C34E7EDC2891E /* NSMutableArray+GuardClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+GuardClass.h"; sourceTree = "<group>"; };
+		2E1E301BA5AA92C1F1330344BB00164D /* NSDictionary+GuardClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GuardClass.h"; sourceTree = "<group>"; };
 		65DC01DC4270432826C780C479E55F88 /* Pods-DSCrashCushion_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSCrashCushion_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A0222A13399C7EB2F91837F59D77B70 /* DSCrashCushion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DSCrashCushion.modulemap; sourceTree = "<group>"; };
 		6BC530F0F599AAE6E2C51CFC4E0A1110 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D7E0DF9119E57E4A193F81FBC8B426 /* DSCrashCushion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSCrashCushion-dummy.m"; sourceTree = "<group>"; };
+		7FA03086B500056F0673E3A7D7E5E573 /* DSCrashGuardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DSCrashGuardManager.h; sourceTree = "<group>"; };
 		8B1B8800D2C603B62829F031D1022932 /* Pods-DSCrashCushion_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSCrashCushion_Example.release.xcconfig"; sourceTree = "<group>"; };
 		92A4A62D165099C9BAE6AD486AA3BDCF /* Pods_DSCrashCushion_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSCrashCushion_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93DA71FE82E567378BDD8F48D9E4BC49 /* DSSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DSSwizzle.m; sourceTree = "<group>"; };
-		999D62171FB1B98700926249 /* NSArray+GuardClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+GuardClass.h"; sourceTree = "<group>"; };
-		999D62181FB1B98700926249 /* NSArray+GuardClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GuardClass.m"; sourceTree = "<group>"; };
-		999D621B1FB1B99700926249 /* NSMutableDictionary+GuardClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+GuardClass.h"; sourceTree = "<group>"; };
-		999D621C1FB1B99700926249 /* NSMutableDictionary+GuardClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+GuardClass.m"; sourceTree = "<group>"; };
-		999D621F1FB1B9A900926249 /* NSDictionary+GuardClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GuardClass.h"; sourceTree = "<group>"; };
-		999D62201FB1B9A900926249 /* NSDictionary+GuardClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GuardClass.m"; sourceTree = "<group>"; };
-		9FED4069B04E24AC4CFA2209B19995AD /* DSCrashGuardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DSCrashGuardManager.m; sourceTree = "<group>"; };
 		A3BF2F2CF64CAD2D760640F97437150F /* DSCrashCushion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSCrashCushion-prefix.pch"; sourceTree = "<group>"; };
+		A3C54ED9182ECE1DBD1C9F4F57227808 /* NSArray+GuardClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GuardClass.m"; sourceTree = "<group>"; };
+		A7FB3629B3A395C4A9D34D9EC3F21C3A /* DSSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DSSwizzle.h; sourceTree = "<group>"; };
+		A8663EDA2A6DA5C5D854A62DB7E99A9A /* NSMutableArray+GuardClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+GuardClass.h"; sourceTree = "<group>"; };
 		AC3674C2148C0B8B44CFF1184EEF5C80 /* DSCrashCushion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSCrashCushion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B17F8324DE2005F3F7A1C79CD8B7CF24 /* DSCrashGuardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DSCrashGuardManager.h; sourceTree = "<group>"; };
+		AC929DD1B9CD0C4E820AD248D6B1DA5C /* DSSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DSSwizzle.m; sourceTree = "<group>"; };
 		B9DBC8BA58F658814C6CF29E4487ABE9 /* DSCrashCushion.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSCrashCushion.xcconfig; sourceTree = "<group>"; };
 		BA9A0519DA6A85564A2159599CD7CEC5 /* Pods-DSCrashCushion_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSCrashCushion_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBFD1E69565011BE3AB97DBC64ACE471 /* DSCrashGuardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DSCrashGuardManager.m; sourceTree = "<group>"; };
 		C031E4130E962F85957DECAC655F9AF0 /* Pods-DSCrashCushion_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSCrashCushion_Example-umbrella.h"; sourceTree = "<group>"; };
+		C63B594349187993D0A2A96E66A674F0 /* NSMutableArray+GuardClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+GuardClass.m"; sourceTree = "<group>"; };
 		DA14CDD4635741FEDE339DBC3459AEB6 /* Pods-DSCrashCushion_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSCrashCushion_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC036A7C47C957087C9C3FACF53409E5 /* Pods-DSCrashCushion_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DSCrashCushion_Example.modulemap"; sourceTree = "<group>"; };
-		F91BC51337232EE92B99C7FA5BD51EEB /* NSMutableArray+GuardClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+GuardClass.m"; sourceTree = "<group>"; };
+		F8FFE170106EE14407D5D222879A6722 /* NSDictionary+GuardClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GuardClass.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C7276F9E33C88FC1000FB3EC6AB7A09F /* Frameworks */ = {
+		4529D3C0162198E36B6CFD27354ECA27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53622C725D6B2BC63674A0808EE81FB2 /* Foundation.framework in Frameworks */,
+				E01B4D9D234F3435A4F443091DA9C284 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +92,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1796941CCF972C1520BAC2A0863BEF4A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A7FB3629B3A395C4A9D34D9EC3F21C3A /* DSSwizzle.h */,
+				AC929DD1B9CD0C4E820AD248D6B1DA5C /* DSSwizzle.m */,
+				7FA03086B500056F0673E3A7D7E5E573 /* DSCrashGuardManager.h */,
+				BBFD1E69565011BE3AB97DBC64ACE471 /* DSCrashGuardManager.m */,
+				AB3E16B2BD04A4E6D0CE7C748ED97328 /* GuardClass */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		277F07F177C990ABB22CC3423BE28BD2 /* Pods-DSCrashCushion_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +120,21 @@
 			);
 			name = "Pods-DSCrashCushion_Example";
 			path = "Target Support Files/Pods-DSCrashCushion_Example";
+			sourceTree = "<group>";
+		};
+		2DA4C5B07378EAC6337B1A3BEC535973 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				03C40C02CE2897A54E633AFF83A5EE97 /* NSArray+GuardClass.h */,
+				A3C54ED9182ECE1DBD1C9F4F57227808 /* NSArray+GuardClass.m */,
+				2E1E301BA5AA92C1F1330344BB00164D /* NSDictionary+GuardClass.h */,
+				F8FFE170106EE14407D5D222879A6722 /* NSDictionary+GuardClass.m */,
+				A8663EDA2A6DA5C5D854A62DB7E99A9A /* NSMutableArray+GuardClass.h */,
+				C63B594349187993D0A2A96E66A674F0 /* NSMutableArray+GuardClass.m */,
+				19C24247E74CBC1AE2A11D5BC127E0E0 /* NSMutableDictionary+GuardClass.h */,
+				28DCC47002F32DD58E3081F605149982 /* NSMutableDictionary+GuardClass.m */,
+			);
+			path = Container;
 			sourceTree = "<group>";
 		};
 		325DD87D23CA09D10E4AAF05819D75D8 /* Products */ = {
@@ -137,21 +164,6 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		75B17E6ECB2835B8035E8DB3088C1BAA /* GuardClass */ = {
-			isa = PBXGroup;
-			children = (
-				999D62171FB1B98700926249 /* NSArray+GuardClass.h */,
-				999D62181FB1B98700926249 /* NSArray+GuardClass.m */,
-				999D621F1FB1B9A900926249 /* NSDictionary+GuardClass.h */,
-				999D62201FB1B9A900926249 /* NSDictionary+GuardClass.m */,
-				3C97AE1D607609B7F35C34E7EDC2891E /* NSMutableArray+GuardClass.h */,
-				F91BC51337232EE92B99C7FA5BD51EEB /* NSMutableArray+GuardClass.m */,
-				999D621B1FB1B99700926249 /* NSMutableDictionary+GuardClass.h */,
-				999D621C1FB1B99700926249 /* NSMutableDictionary+GuardClass.m */,
-			);
-			path = GuardClass;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -166,9 +178,17 @@
 		82C605918E31C78CD78D32B97F28B0EB /* DSCrashCushion */ = {
 			isa = PBXGroup;
 			children = (
-				DAA364526FC11A3358DC43DF46BA8F4E /* Classes */,
+				1796941CCF972C1520BAC2A0863BEF4A /* Classes */,
 			);
 			path = DSCrashCushion;
+			sourceTree = "<group>";
+		};
+		AB3E16B2BD04A4E6D0CE7C748ED97328 /* GuardClass */ = {
+			isa = PBXGroup;
+			children = (
+				2DA4C5B07378EAC6337B1A3BEC535973 /* Container */,
+			);
+			path = GuardClass;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -185,18 +205,6 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		DAA364526FC11A3358DC43DF46BA8F4E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				13350AEA7E3983FEEEF1D0416C12B002 /* DSSwizzle.h */,
-				93DA71FE82E567378BDD8F48D9E4BC49 /* DSSwizzle.m */,
-				B17F8324DE2005F3F7A1C79CD8B7CF24 /* DSCrashGuardManager.h */,
-				9FED4069B04E24AC4CFA2209B19995AD /* DSCrashGuardManager.m */,
-				75B17E6ECB2835B8035E8DB3088C1BAA /* GuardClass */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		E238997FCDD7D73D1B5391D2C2856887 /* Support Files */ = {
@@ -224,25 +232,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		26E1664DF1BE4D7A2C49FE1E805518D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7558228E365C23A61024960669604EDA /* DSCrashCushion-umbrella.h in Headers */,
+				50F6BA00C1469E4C6987CB5F026F5A19 /* DSCrashGuardManager.h in Headers */,
+				D8036DEEB751590C45E06A5961502906 /* DSSwizzle.h in Headers */,
+				D7E71A889AA35BFB7168CEBF66C1E534 /* NSArray+GuardClass.h in Headers */,
+				3F62E8A417B48104293F513E7488FE69 /* NSDictionary+GuardClass.h in Headers */,
+				B26F4688D76A61F74D1D4944C8337599 /* NSMutableArray+GuardClass.h in Headers */,
+				F104303CA84269E92664C08F949BF41D /* NSMutableDictionary+GuardClass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		756996957594AC08E128F83184E7249B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7273881BFA33DFD045111439137EBAD8 /* Pods-DSCrashCushion_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA3221E00787D0EC26B6EA5E099C8362 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46D0AFEFF93C571CAD01912870B1323A /* DSCrashCushion-umbrella.h in Headers */,
-				04BE83007894B1C7B63816AE5AD8DC22 /* DSCrashGuardManager.h in Headers */,
-				999D621D1FB1B99700926249 /* NSMutableDictionary+GuardClass.h in Headers */,
-				E495EE13C7544E35DA77905512F05DB3 /* DSSwizzle.h in Headers */,
-				F5C08E7966D93C359C157574B26D2198 /* NSMutableArray+GuardClass.h in Headers */,
-				999D62211FB1B9A900926249 /* NSDictionary+GuardClass.h in Headers */,
-				999D62191FB1B98700926249 /* NSArray+GuardClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,13 +275,13 @@
 			productReference = 92A4A62D165099C9BAE6AD486AA3BDCF /* Pods_DSCrashCushion_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		48505BBFA756077AD19F6DF708703DDB /* DSCrashCushion */ = {
+		948DF4592BE90F9A0445638035CC4E47 /* DSCrashCushion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EED45742E09FB85B7ACEC68725BC625 /* Build configuration list for PBXNativeTarget "DSCrashCushion" */;
+			buildConfigurationList = 83064B351584BB59DBD76039A4F994B0 /* Build configuration list for PBXNativeTarget "DSCrashCushion" */;
 			buildPhases = (
-				31735CA579A4343750313E58900B9E01 /* Sources */,
-				C7276F9E33C88FC1000FB3EC6AB7A09F /* Frameworks */,
-				BA3221E00787D0EC26B6EA5E099C8362 /* Headers */,
+				4B1E40B97C32F9425FC286766E1171B0 /* Sources */,
+				4529D3C0162198E36B6CFD27354ECA27 /* Frameworks */,
+				26E1664DF1BE4D7A2C49FE1E805518D4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -305,24 +313,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48505BBFA756077AD19F6DF708703DDB /* DSCrashCushion */,
+				948DF4592BE90F9A0445638035CC4E47 /* DSCrashCushion */,
 				0F293E9AB26FC9D70856B9F71F5CD9E9 /* Pods-DSCrashCushion_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		31735CA579A4343750313E58900B9E01 /* Sources */ = {
+		4B1E40B97C32F9425FC286766E1171B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				999D621E1FB1B99700926249 /* NSMutableDictionary+GuardClass.m in Sources */,
-				FA3E34145ADDFD9CFE87076EBD484917 /* DSCrashCushion-dummy.m in Sources */,
-				B51FF37B84696938F0B14123BD366D4C /* DSCrashGuardManager.m in Sources */,
-				B0DEDAB19F02C24CA3D5EFE7913BAFF4 /* DSSwizzle.m in Sources */,
-				FACA7680C6CC3C4D2E16D0CFB729C409 /* NSMutableArray+GuardClass.m in Sources */,
-				999D621A1FB1B98700926249 /* NSArray+GuardClass.m in Sources */,
-				999D62221FB1B9A900926249 /* NSDictionary+GuardClass.m in Sources */,
+				F969D5D5C3B2A7B80105FD3C1C34DC63 /* DSCrashCushion-dummy.m in Sources */,
+				55D1E915CB512816187BB66C426A99CE /* DSCrashGuardManager.m in Sources */,
+				FE6621347F71DBAE8E4461F0CE251993 /* DSSwizzle.m in Sources */,
+				BECFA6C77F5D33B54011C3CC48A5844F /* NSArray+GuardClass.m in Sources */,
+				97994571ACD021062C46AF4AC310D9E8 /* NSDictionary+GuardClass.m in Sources */,
+				F1022058A1B73191334D80049CA1572E /* NSMutableArray+GuardClass.m in Sources */,
+				452A25C2E047DC99D3910000111A6E24 /* NSMutableDictionary+GuardClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,12 +348,44 @@
 		79D5F9F61345A11183A4A0E4DC078169 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DSCrashCushion;
-			target = 48505BBFA756077AD19F6DF708703DDB /* DSCrashCushion */;
+			target = 948DF4592BE90F9A0445638035CC4E47 /* DSCrashCushion */;
 			targetProxy = D31AB085294999E07D2EB45F76E05A4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0A56B0FD95A73D847EAEBFC0C9909D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9DBC8BA58F658814C6CF29E4487ABE9 /* DSCrashCushion.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DSCrashCushion/DSCrashCushion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DSCrashCushion/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DSCrashCushion/DSCrashCushion.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DSCrashCushion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -390,39 +430,7 @@
 			};
 			name = Release;
 		};
-		2A4C84E35F02BE21B2814E10E2CABB8C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9DBC8BA58F658814C6CF29E4487ABE9 /* DSCrashCushion.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DSCrashCushion/DSCrashCushion-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DSCrashCushion/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DSCrashCushion/DSCrashCushion.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DSCrashCushion;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4051D8DCBB98C574C1DAE212201987B4 /* Release */ = {
+		31235DE6A9D9ABFB07D95FCAF60573E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9DBC8BA58F658814C6CF29E4487ABE9 /* DSCrashCushion.xcconfig */;
 			buildSettings = {
@@ -586,11 +594,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EED45742E09FB85B7ACEC68725BC625 /* Build configuration list for PBXNativeTarget "DSCrashCushion" */ = {
+		83064B351584BB59DBD76039A4F994B0 /* Build configuration list for PBXNativeTarget "DSCrashCushion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A4C84E35F02BE21B2814E10E2CABB8C /* Debug */,
-				4051D8DCBB98C574C1DAE212201987B4 /* Release */,
+				0A56B0FD95A73D847EAEBFC0C9909D08 /* Debug */,
+				31235DE6A9D9ABFB07D95FCAF60573E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
