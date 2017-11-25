@@ -240,7 +240,7 @@
 				ORGANIZATIONNAME = "zhangdasen@foxmail.com";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 4S68FLC2TS;
+						DevelopmentTeam = FSHXWW668S;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -471,7 +471,7 @@
 			baseConfigurationReference = 61CBC72955E0B2FDA7F684A2 /* Pods-DSCrashCushion_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4S68FLC2TS;
+				DEVELOPMENT_TEAM = FSHXWW668S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DSCrashCushion/DSCrashCushion-Prefix.pch";
 				INFOPLIST_FILE = "DSCrashCushion/DSCrashCushion-Info.plist";
@@ -487,7 +487,7 @@
 			baseConfigurationReference = 11C108DCDA32F1FBE7C372F0 /* Pods-DSCrashCushion_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4S68FLC2TS;
+				DEVELOPMENT_TEAM = FSHXWW668S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DSCrashCushion/DSCrashCushion-Prefix.pch";
 				INFOPLIST_FILE = "DSCrashCushion/DSCrashCushion-Info.plist";

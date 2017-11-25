@@ -9,4 +9,22 @@
 
 @implementation NSMutableDictionary (GuardClass)
 
+- (void)safeSetObject:(id)anObject forKey:(id<NSCopying>)aKey
+{
+    @try{
+        [self safeSetObject:anObject forKey:aKey];
+    }@catch (NSException *exception) {
+        
+    }
+}
+
+- (void)safeRemoveObjectForKey:(id)aKey{
+    @try{
+        [self safeRemoveObjectForKey:aKey];
+    }@catch (NSException *exception){
+        
+    }
+}
+
 @end
+

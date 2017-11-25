@@ -10,3 +10,7 @@
 @interface NSMutableDictionary (GuardClass)
 
 @end
+
+@implementation NSDictionary (GuardClass)
+
+@end

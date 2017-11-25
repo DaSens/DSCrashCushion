@@ -10,3 +10,7 @@
 @interface NSMutableArray (GuardClass)
 
 @end
+
+@interface NSArray (GuardClass)
+
+@end
